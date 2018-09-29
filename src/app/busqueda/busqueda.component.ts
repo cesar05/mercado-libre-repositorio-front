@@ -9,7 +9,7 @@ import { BusquedaService } from './busqueda.service';
 export class BusquedaComponent implements OnInit {
 
   nombreItem: string;
-  resultadoBusqueda = [];
+  resultadoBusqueda: any = '';
 
   constructor(private busquedaService: BusquedaService) { }
 
